@@ -1,3 +1,4 @@
+import java.sql.Date;
 class Funcionario {
     String nome;
     int salario;
