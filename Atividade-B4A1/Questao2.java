@@ -61,10 +61,10 @@ public class Pessoa {
     public static void main(String[] args) {
 
         Empresa emp = new Empresa();
-        emp.CriaEmpresa("Hoyal","123456");
-        emp.CadastrarDepartamento("Técnico");
-        emp.CadastrarDepartamento("Gerentes");
-        emp.CadastrarFuncionario(emp.departamentos[0],"João","12/12/12",100);
+        emp.CriaEmpresa("CEFET","123456");
+        emp.CadastrarDepartamento("T.I");
+        emp.CadastrarDepartamento("R.H");
+        emp.CadastrarFuncionario(emp.departamentos[0],"zeus","12/12/12",100);
         emp.Aumento(emp.departamentos[0]);
         emp.Transferir(emp.departamentos[0],emp.departamentos[1]);
     }
